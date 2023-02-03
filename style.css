@@ -1,0 +1,156 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    font-size: 18px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 290px;
+    box-shadow: 0 10px 10px 10px hsl(214, 49%, 8%);
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 25px;
+} 
+
+picture {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 248px;
+    background-color: aqua;
+    height: 248px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+
+.equilibrium {
+    position: absolute;
+    width: 250px;
+    margin-left: -101px;
+    margin-top: -1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.equilibrium:active {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.promotion {
+    font-size: 11px;
+}
+
+h1 {
+    margin-top: -15px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    cursor: pointer;
+} 
+
+h1:active {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+   text-align: left;
+   color: hsl(218, 19%, 54%);
+   font-size: 14px;
+}
+
+
+
+.promotion {
+    margin: 30px;
+}
+
+.price_list {
+    display: flex;
+    margin-top: -10px;
+}
+
+.ethereum {
+    margin-top: 12px;
+    width: 10px;
+    height: 15px;
+}
+
+.price {
+    margin-left: 5px;
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock {
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 14px;
+    height: 15px;
+}
+
+.time {
+    margin-left: 5px;
+    font-size: 14px;
+    color: hsl(218, 19%, 54%);
+}
+
+.cretion {
+    display:flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+
+.avater {
+    width: 25px;
+    height: 25px;
+    border: 1px solid hsl(0, 0%, 100%); 
+    border-radius: 50%;   
+} 
+
+.avater_name {
+    color:hsl(218, 19%, 54%);
+    margin-left: 20px;
+    margin-top: 6px;
+}
+strong {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+strong:active {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+footer {
+    display: none;
+}
+
+@media (max-width:375px) {
+    main {
+        margin-top: 30px;
+    } 
+
+} 
